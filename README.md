@@ -9,5 +9,5 @@ work in progress
 - Created a virtual environment.
 - Imported FastAPI
 - Path operation
-- Get and Post Methods
+- Get and Post methods
 - HTTP requests and started testing API via Postman
