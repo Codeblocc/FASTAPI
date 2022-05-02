@@ -3,6 +3,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 # Path operation
+# request Get method url: "/"
 
 
 @app.get("/")  # decorator
