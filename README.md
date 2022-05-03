@@ -1,6 +1,9 @@
 # FASTAPI - project
 
 work in progress
+- py  -3  -m venv venv
+- venv\Scripts\activate.bat
+- uvicorn main:app  --reload
 
 # Timeline
 
