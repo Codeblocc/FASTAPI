@@ -1,9 +1,19 @@
+from typing import Optional
 from fastapi import Body, FastAPI
+from pydantic import BaseModel
+
 
 app = FastAPI()
 
 # Path operation
 # request Get method url: "/"
+
+
+class Post(BaseModel):
+    title: str
+    content: str
+    published: bool = True
+    rating: Optional[int] = None
 
 
 @app.get("/")  # decorator
@@ -17,6 +27,8 @@ def get_posts():
 
 
 @app.post("/createposts")
-def create_posts(payLoad: dict = Body(...)):
-    print(payLoad)
-    return {"new_post": f"title {payLoad['title']} content: {payLoad['content']}"}
+def create_posts(post: Post):
+    print(post)
+    print(post.dict())
+    return {"data": post}
+# title str, content str
