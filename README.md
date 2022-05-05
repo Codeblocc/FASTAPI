@@ -23,5 +23,3 @@ work in progress
 - Gave each posts an ID. randrange was used for a random ID to be applied to create posts.
 - Still learning at every step.
 
-# 4th May
-- Break from this project. Will resume tomorrow.
