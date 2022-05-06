@@ -44,7 +44,9 @@ def create_posts(post: Post):
     return {"data": post_dict}
 
 
-@app.get("/posts/{id}")
-def get_post():
+@app.get("/posts/{id}")  # path parameter
+def get_post(id: int):  # this will convert the id to an integer
+
     post = find_post(id)
+    print(post)
     return{"post_detail": post}
