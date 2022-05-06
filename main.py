@@ -72,3 +72,4 @@ def delete_post(id: int):
 
     my_posts.pop(index)
     return {'message': 'post was successfully deleted'}
+
