@@ -73,6 +73,7 @@ def delete_post(id: int):
     my_posts.pop(index)
     return {'message': 'post was successfully deleted'}
 
+<<<<<<< HEAD
 
 @app.put("/posts/{id}")
 def update_post(id: int, post: Post):
@@ -84,3 +85,5 @@ def update_post(id: int, post: Post):
     post_dict['id'] = id
     my_posts[index] = post_dict
     return {"data": post_dict}
+=======
+>>>>>>> f52fd1caedae00c33ef9ff4ff1e9421f7ed7e760
