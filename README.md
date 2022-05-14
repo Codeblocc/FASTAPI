@@ -39,3 +39,6 @@
 - Checked the FastAPI docs on Swagger UI http://127.0.0.1:8000/docs and Redoc http://127.0.0.1:8000/redoc
 - Created a package and added a dummy file named __init__.py and moved the main.py file to the new folder named "app".
 - all tests cleared in terminal and Postman
+
+## 14th May
+- Connected the PostgreSQL database.
