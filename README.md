@@ -44,4 +44,12 @@
 - Started working on the PostgreSQL part of the project
 - In PostgreSQL, created a server named ```Local Postgres```.
 - Under the ```Local Postgres```, created a new database named ```fastapi```.
-- 
+- Created the Table under the Schemas and named it as ```Products```.
+- Add a few columns, namely:
+   - Name
+   - Price
+   - ID (This was set as the Primary Key)
+   - Is_Sale (Boolen value, True or False)
+   - Inventory (Set the Constraint to 0)
+   - Created At (This is the timestamp when te specific entry was added)
+- Created the first SQL query.
