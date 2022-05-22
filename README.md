@@ -53,3 +53,8 @@
    - Inventory (Set the Constraint to 0)
    - Created At (This is the timestamp when te specific entry was added)
 - Created the first SQL query.
+
+![productsColumns](https://user-images.githubusercontent.com/68233166/169702067-8b507a17-356b-482c-89a0-fe4d63455697.JPG)
+![SQLquery](https://user-images.githubusercontent.com/68233166/169702076-6d89404e-24e4-4065-9660-ff0ae415c920.JPG)
+
+
