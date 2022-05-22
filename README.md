@@ -40,5 +40,8 @@
 - Created a package and added a dummy file named __init__.py and moved the main.py file to the new folder named "app".
 - all tests cleared in terminal and Postman
 
-## 14th May
-- Connected the PostgreSQL database.
+## 22nd May
+- Started working on the PostgreSQL part of the project
+- In PostgreSQL, created a server named ```Local Postgres```.
+- Under the ```Local Postgres```, created a new database named ```fastapi```.
+- 
